@@ -8,3 +8,4 @@ Now, I am considering that you have read the previous article without cheating, 
 First install the one most important thing that you will need in this article, Pycaret Library. This library is going to save you a ton of money as you know time is money, right.
 
 To install the lib within your Ipython notebook use –
+pip install pycaret
