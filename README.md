@@ -256,3 +256,6 @@ brightness_4
 # hyperparameter tuning for a particular model 
 model = tune_model('ET') 
 
+Code: Saving the model
+
+After hours and hours of training the model and hyper tuning it, the worst thing that can happen to you is that the model disappears as the session time-out occurs. To save you from this nightmare, let me give a trick you will never forget.
