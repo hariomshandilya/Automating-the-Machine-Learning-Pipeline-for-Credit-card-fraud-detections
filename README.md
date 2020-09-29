@@ -27,3 +27,12 @@ brightness_4
 path ="credit.csv"
 data = pd.read_csv(path)  
 data.head() 
+Code: Knowing the dataset
+
+filter_none
+brightness_4
+# checking for the imbalance  
+len(df[df['Class']== 0]) 
+filter_none
+brightness_4
+len(df[df['Class']== 1]) 
