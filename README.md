@@ -42,3 +42,6 @@ filter_none
 brightness_4
 # Importing module and initializing setup 
 from pycaret.classification import * clf1 = setup(data = df, target = 'Cl
+After this, a confirmation will be required to proceed. Press Enter for moving forward with the code.
+Check if all the parameters type is correctly identified by the library.
+Tell the classifier the percentage of training and validation split is to be taken. I took 80% training data which is quite common in machine learning.
