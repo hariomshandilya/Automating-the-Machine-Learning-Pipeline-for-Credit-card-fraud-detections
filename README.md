@@ -36,3 +36,9 @@ len(df[df['Class']== 0])
 filter_none
 brightness_4
 len(df[df['Class']== 1]) 
+Code: Setting up the pycaret classification
+
+filter_none
+brightness_4
+# Importing module and initializing setup 
+from pycaret.classification import * clf1 = setup(data = df, target = 'Cl
