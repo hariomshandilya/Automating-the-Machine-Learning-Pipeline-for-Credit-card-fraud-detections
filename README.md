@@ -9,3 +9,21 @@ First install the one most important thing that you will need in this article, P
 
 To install the lib within your Ipython notebook use –
 pip install pycaret
+Code: Importing the necessary files
+filter_none
+brightness_4
+# importing all necessary libraries 
+# linear algebra 
+import numpy as np  
+# data processing, CSV file I / O (e.g. pd.read_csv) 
+import pandas as pd  
+Code: Loading the dataset
+
+filter_none
+brightness_4
+# Load the dataset from the csv file using pandas  
+# best way is to mount the drive on colab and   
+# copy the path for the csv file  
+path ="credit.csv"
+data = pd.read_csv(path)  
+data.head() 
