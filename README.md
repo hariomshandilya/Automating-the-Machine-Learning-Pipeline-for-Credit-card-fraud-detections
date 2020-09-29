@@ -229,3 +229,13 @@ Internships
 Videos
 @geeksforgeeks , Some rights reserved
 We use cookies to ensure you have the best browsing experience on our website. By usin
+# command used for comparing all the models available in the library 
+compare_models() 
+Output:
+
+
+Yellow part is the top score for the corresponding model.
+
+Taking a single algorithm performing decently in the comparison and creating a model for the same. The name of the algorithm can be found in the documentation of the pycaret library under creating model
+
+Code: Creating the best model
