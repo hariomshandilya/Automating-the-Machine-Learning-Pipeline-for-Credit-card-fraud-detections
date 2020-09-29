@@ -259,3 +259,17 @@ model = tune_model('ET')
 Code: Saving the model
 
 After hours and hours of training the model and hyper tuning it, the worst thing that can happen to you is that the model disappears as the session time-out occurs. To save you from this nightmare, let me give a trick you will never forget.
+Code: Finalizing the Model
+
+A step just before deployment when you merge the train and the validation data and train model on all the data available to you.
+
+filter_none
+brightness_4
+# finalize a model 
+final_rf = finalize_model(rf) 
+Deploying the model is deployed on AWS. For the settings required for the same please visit the documentation
+
+filter_none
+brightness_4
+# Deploy a model 
+deploy_model(final_lr, model_name = 'lr_aws', platform = 'aws', authenticati
