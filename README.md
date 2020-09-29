@@ -239,3 +239,20 @@ Yellow part is the top score for the corresponding model.
 Taking a single algorithm performing decently in the comparison and creating a model for the same. The name of the algorithm can be found in the documentation of the pycaret library under creating model
 
 Code: Creating the best model
+ creating logistic regression model 
+ET = create_model('et') 
+Code: Displaying the model parameters
+
+filter_none
+brightness_4
+# displaying the model parameters 
+ET 
+Output:
+
+Code: Hyperparameter Tuning
+
+filter_none
+brightness_4
+# hyperparameter tuning for a particular model 
+model = tune_model('ET') 
+
